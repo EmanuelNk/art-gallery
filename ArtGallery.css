@@ -1,0 +1,34 @@
+/* ArtGallery.css */
+
+.art-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .art-piece {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .art-piece img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .art-piece h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .art-piece p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
