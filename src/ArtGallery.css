@@ -1,0 +1,45 @@
+/* ArtGallery.css */
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.art-gallery {
+  background-color: rgb(228, 221, 210); /* Set your desired background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+  
+  .art-piece {
+    background-color: rgb(228, 228, 228);
+    max-width: 1280px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .art-piece img {
+
+    max-width: 720px; /* Adjust to your desired maximum width */
+    max-height: 720px; /* Adjust to your desired maximum height */
+    border-radius: 8px;
+  }
+  
+  .art-piece h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .art-piece p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
